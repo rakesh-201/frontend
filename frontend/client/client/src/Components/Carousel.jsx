@@ -1,5 +1,5 @@
 import React from "react";
-import Podcast from "../Images/Podcast.gif";
+import InvestorPresentation from "../Images/InvestorPresentation.gif";
 import MenuButton from "./MenuButton";
 
 function Carousel({ setMain }) {
@@ -28,7 +28,7 @@ function Carousel({ setMain }) {
     "Welcome, \nIntroducing Swift Bond Invest, the foremost hub for effective investment bond management. Our platform is meticulously crafted to equip individuals and businesses with the essential tools and knowledge required to make well-informed choices, thereby optimizing their investment opportunities within the ever-evolving realm of bonds.";
 
   return (
-    <div className="row purple-text" style={styles.con}>
+    <div className="row purple-text my-2" style={styles.con}>
       <div
         className="col l6 s12 hide-on-med-and-down left-align"
         style={styles.textCon}
@@ -41,7 +41,7 @@ function Carousel({ setMain }) {
         </div>
       </div>
       <div className="col l6 m0 s0 hide-on-med-and-down">
-        <img src={Podcast} alt="" />
+        <img src={InvestorPresentation} alt="" />
       </div>
     </div>
   );

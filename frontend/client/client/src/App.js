@@ -11,6 +11,13 @@ function App() {
       <Navbar />
       <div className="container mb-5">
         <Carousel />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Card />
+        </div>
       </div>
       <Footer />
     </>

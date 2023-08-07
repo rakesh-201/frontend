@@ -1,6 +1,6 @@
 import React from "react";
-import Coin from "../Images/Coins.gif";
-import Customization from "../Images/Customization.gif";
+import Safe from "../Images/Safe.gif";
+import PortfolioManagement from "../Images/PortfolioManagement.gif";
 import Service from "../Images/Service.gif";
 
 function Card() {
@@ -10,22 +10,16 @@ function Card() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src={Customization}
+              src={Safe}
               className="img-fluid rounded-start"
               alt="..."
             />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Highly Customizable</h5>
+              <h5 className="card-title">Secure Transactions</h5>
               <p className="card-text">
-                Experience language learning like never before with LinguaLink's
-                highly customizable features. Tailor your learning journey to
-                suit your unique needs and preferences. From choosing specific
-                topics, adjusting difficulty levels, setting personalized goals,
-                to selecting preferred conversation partners, our app puts you
-                in control. Discover the power of customization with LinguaLink
-                and unleash your full language learning potential.
+              At Swift Bond Invest, we prioritize the safety and confidentiality of your financial transactions. Our platform employs state-of-the-art encryption and security protocols to ensure that all your bond buying and selling activities are conducted with the utmost protection. Your personal information and payment details are safeguarded against unauthorized access, and we regularly monitor for any potential security threats. Rest assured that with Swift Bond Invest, you can invest in bonds confidently, knowing that your transactions are conducted in a secure and trustworthy environment.
               </p>
             </div>
           </div>
@@ -55,20 +49,13 @@ function Card() {
       <div className="card mb-3" style={{ maxWidth: "800px" }}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={Coin} className="img-fluid rounded-start" alt="..." />
+            <img src={PortfolioManagement} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Free Of Cost</h5>
+              <h5 className="card-title">Portfolio Management</h5>
               <p className="card-text">
-                Unlock the power of language learning without breaking the bank.
-                LinguaLink offers you an incredible language improvement
-                experience, completely free of cost. No subscriptions, no hidden
-                fees, just pure language learning enjoyment. We believe that
-                language skills should be accessible to everyone, which is why
-                we've made our app available to you at no cost. Embrace the
-                freedom of learning with LinguaLink, where language skills come
-                without a price tag.
+              At Swift Bond Invest, we understand that successful bond investing requires diligent oversight and informed decision-making. Our advanced Portfolio Management feature empowers you to take control of your bond investments with ease and confidence. Whether you are an experienced investor or just starting on your financial journey, our user-friendly dashboard provides a comprehensive set of tools to effectively manage your bond portfolio.
               </p>
             </div>
           </div>
