@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg --bs-info-bg-subtle navbarCol ">
       <div className="container-fluid">
-        <a className="navbar-brand text-light" href="/">
+        <Link className="navbar-brand text-light" to="/">
           Swift Bond Invest
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,18 +22,18 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active text-light"
                 aria-current="page"
-                href="/"
+                to="/"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="/">
+              <Link className="nav-link text-light" to="/">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -67,12 +68,12 @@ export default function Navbar() {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <button className="btn btn-warning mx-2" type="submit">
+            <Link className="btn btn-warning mx-2" to="/login">
               Login
-            </button>
-            <button className="btn btn-warning mx-2" type="submit">
+            </Link>
+            <Link className="btn btn-warning mx-2" to="signup">
               Sign Up
-            </button>
+            </Link>
           </form>
         </div>
       </div>
