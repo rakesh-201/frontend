@@ -1,0 +1,222 @@
+[
+  {
+    "TradeId": 1,
+    "UserId": 1,
+    "Bond": "Bond1",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 100,
+    "Price_per_quantity": 1050,
+    "Total": 105000
+  },
+  {
+    "TradeId": 2,
+    "UserId": 2,
+    "Bond": "Bond2",
+    "MaturityDate": "2024-07-20",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 200,
+    "Price_per_quantity": 980,
+    "Total": 196000
+  },
+  {
+    "TradeId": 3,
+    "UserId": 1,
+    "Bond": "Bond3",
+    "MaturityDate": "2026-03-10",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 50,
+    "Price_per_quantity": 750,
+    "Total": 37500
+  },
+  {
+    "TradeId": 4,
+    "UserId": 1,
+    "Bond": "Bond4",
+    "MaturityDate": "2028-05-05",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 300,
+    "Price_per_quantity": 1200,
+    "Total": 360000
+  },
+  {
+    "TradeId": 5,
+    "UserId": 3,
+    "Bond": "Bond5",
+    "MaturityDate": "2027-11-30",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 75,
+    "Price_per_quantity": 850,
+    "Total": 63750
+  },
+  {
+    "TradeId": 6,
+    "UserId": 3,
+    "Bond": "Bond6",
+    "Maturity Date": "2025-09-12",
+    "Status": "Active",
+    "Face Value": 1000,
+    "Quantity": 86,
+    "Price_per_quantity": 990,
+    "Total": 85140
+  },
+  {
+    "TradeId": 7,
+    "UserId": 2,
+    "Bond": "Bond7",
+    "MaturityDate": "2027-04-25",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 478,
+    "Price_per_quantity": 821,
+    "Total": 392438
+  },
+  {
+    "TradeId": 8,
+    "UserId": 3,
+    "Bond": "Bond8",
+    "MaturityDate": "2026-08-01",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 41,
+    "Price_per_quantity": 874,
+    "Total": 35834
+  },
+  {
+    "TradeId": 9,
+    "UserId": 2,
+    "Bond": "Bond9",
+    "MaturityDate": "2026-12-10",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 36,
+    "Price_per_quantity": 814,
+    "Total": 29304
+  },
+  {
+    "TradeId": 10,
+    "UserId": 1,
+    "Bond": "Bond10",
+    "MaturityDate": "2029-02-18",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 79,
+    "Price_per_quantity": 826,
+    "Total": 65254
+  },
+  {
+    "TradeId": 11,
+    "UserId": 1,
+    "Bond": "Bond9",
+    "MaturityDate": "2025-01-15",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 180,
+    "Price_per_quantity": 814,
+    "Total": 146520
+  },
+  {
+    "TradeId": 12,
+    "UserId": 4,
+    "Bond": "Bond11",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 70,
+    "Price_per_quantity": 1050,
+    "Total": 73500
+  },
+  {
+    "TradeId": 13,
+    "UserId": 4,
+    "Bond": "Bond10",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 100,
+    "Price_per_quantity": 876,
+    "Total": 87600
+  },
+  {
+    "TradeId": 14,
+    "UserId": 4,
+    "Bond": "Bond1",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 50,
+    "Price_per_quantity": 1050,
+    "Total": 52500
+  },
+  {
+    "TradeId": 15,
+    "UserId": 4,
+    "Bond": "Bond5",
+    "MaturityDate": "2025-01-15",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 100,
+    "Price_per_quantity": 850,
+    "Total": 85000
+  },
+  {
+    "TradeId": 16,
+    "UserId": 5,
+    "Bond": "Bond2",
+    "MaturityDate": "2025-01-15",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 100,
+    "Price_per_quantity": 980,
+    "Total": 98000
+  },
+  {
+    "TradeId": 17,
+    "UserId": 5,
+    "Bond": "Bond7",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 100,
+    "Price_per_quantity": 821,
+    "Total": 82100
+  },
+  {
+    "TradeId": 18,
+    "UserId": 5,
+    "Bond": "Bond1",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 100,
+    "Price_per_quantity": 1050,
+    "Total": 105000
+  },
+  {
+    "TradeId": 19,
+    "UserId": 5,
+    "Bond": "Bond9",
+    "MaturityDate": "2025-01-15",
+    "Status": "Inactive",
+    "FaceValue": 500,
+    "Quantity": 100,
+    "Price_per_quantity": 814,
+    "Total": 105000
+  },
+  {
+    "TradeId": 20,
+    "UserId": 5,
+    "Bond": "Bond6",
+    "MaturityDate": "2025-01-15",
+    "Status": "Active",
+    "FaceValue": 1000,
+    "Quantity": 100,
+    "Price_per_quantity": 990,
+    "Total": 99000
+  }
+]

@@ -61,7 +61,7 @@ function Dashboard() {
 
   return (
     <div className="container" style={{ width: 500 }}>
-      <div className="my-3">
+      <div className="my-5">
         <h3>Distribution for Bond Quantity</h3>
         <Pie data={data} />
       </div>

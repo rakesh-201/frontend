@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Card from "./Components/Card";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./Components/Dashboard";
+import Table from "./Components/Table";
 // import Table from "./Components/Table";
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
               </>
             }
           />
-          {/* <Route
+          <Route
             path="/bond"
             element={
               <>
@@ -66,7 +67,7 @@ function App() {
                 <Table />
               </>
             }
-          /> */}
+          />
           <Route
             path="/profile"
             element={
