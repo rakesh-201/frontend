@@ -6,7 +6,8 @@ import FoodList from "./Components/FoodList";
 import Footer from "./Components/Footer";
 import Card from "./Components/Card";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Table from "./Components/Table";
+import Dashboard from "./Components/Dashboard";
+// import Table from "./Components/Table";
 
 function App() {
   return (
@@ -53,10 +54,11 @@ function App() {
             element={
               <>
                 <Navbar1 />
+                <Dashboard />
               </>
             }
           />
-          <Route
+          {/* <Route
             path="/bond"
             element={
               <>
@@ -64,7 +66,7 @@ function App() {
                 <Table />
               </>
             }
-          />
+          /> */}
           <Route
             path="/profile"
             element={
