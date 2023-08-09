@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "mdb-react-ui-kit": "^6.2.0",
     "react-router-dom": "^6.14.2"
   }
 }

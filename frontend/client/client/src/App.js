@@ -8,6 +8,8 @@ import Card from "./Components/Card";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./Components/Dashboard";
 import Table from "./Components/Table";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
 // import Table from "./Components/Table";
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
             element={
               <>
                 <Navbar />
+                <Login />
               </>
             }
           />
@@ -47,6 +50,7 @@ function App() {
             element={
               <>
                 <Navbar />
+                <Signup />
               </>
             }
           />
